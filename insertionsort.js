@@ -16,6 +16,7 @@ for(let i=1; i<n; i++)
         console.log(`meroArray[j+1] (meroArray[${j+1}])=meroArray[j] ${meroArray[j]}`)
         j--;
     }
+    
     meroArray[j+1]=current;
 }
 for(let i=0; i<n; i++)
